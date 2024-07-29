@@ -47,10 +47,43 @@ print (qatamadze)
 # print(surname)
 
 hight = "155)
+#hight = 1.55
 print {hight}
+#print (hight)
 
 age -(|13)
+#age = 13
 print age
+#print (age)
 
 flower <rose>
-print 
+#flower = "rose"
+print" flower"
+#print (flower)
+
+car = nissan
+#car = "nissan
+print (toy)
+#print (car)
+
+city batumi
+# city = " batumi"
+print (batumi)
+# print (batumi)
+
+cuntry saqartvelo
+# cuntry = "saqartvelo"
+saqartvelo (print)
+#print(cuntry)
+
+color ("blue")
+#color = "blue"
+print[color]
+#print( color)
+
+animal (>dog)
+#animal = "dog"
+print "animal"
+#print ( animal)
+
+
