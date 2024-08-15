@@ -14,6 +14,6 @@ last_name= input("Enter your last_name")
 print ( " my name is " + name + " my last name is " + last_name )
 
 name = input("Enter your name: ")
-number1 = int(input("Enter your number1"))
+number1 = int(input("Enter your number1: "))
 print(name * 5 )
 print(number1 * 5)
