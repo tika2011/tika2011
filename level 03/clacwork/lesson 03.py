@@ -10,8 +10,8 @@ print(49 + 5)
 print("sister")
 print(6 + 5)
 
-#claswork 2
 
-age = 12
-age =26
+
+(age) = 12
+(age) = (12 + 26)
 print=age
