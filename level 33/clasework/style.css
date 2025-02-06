@@ -1,0 +1,23 @@
+h1 {
+color: #9f0d0d;
+font-size: 80px;
+text-align: center;
+}
+h2{
+    color: #ddd84b;
+font-size: 70px;
+text-align: center;
+}
+p{
+    color: #179f0d;
+font-size: 30px;
+text-align: center;
+}
+
+button{
+    color: #370909;
+    background-color: red;
+font-size: 80px;
+border: saddlebrown;
+text-align: center;
+}
