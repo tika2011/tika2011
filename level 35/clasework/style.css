@@ -1,0 +1,26 @@
+/* პირველი div */
+#div1 {
+    background-color: rgb(4, 255, 0);
+    color: #000000;
+
+}
+#div2 {
+    background-color: #fffb00;
+    color: #060606;
+}
+
+/* მესამე div */
+#div3 {
+    background-color: #000dff;
+    color: #000000;
+
+}
+button {
+    background-color: #9099a1;
+    color: rgb(184, 46, 163);
+}
+
+button:hover {
+    background-color: #1a1a9d;
+    color: #000000;
+}

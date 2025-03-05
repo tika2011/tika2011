@@ -1,0 +1,13 @@
+h1 {
+    color: blue;
+}
+button {
+    background-color: rgb(255, 0, 0);
+}
+button{
+background-color: rgb(255, 30, 0);color: rgb(0, 0, 0);border: 2px solid rgb(0, 0, 225);
+}
+p{
+        text-shadow: 2px 2px 7px rgb(0, 0, 0);
+      
+}
