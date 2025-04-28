@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Only Animation</title>
+  <style>
+    body {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 40px;
+      background-color: #f0f0f0;
+    }
+
+    .box {
+      width: 150px;
+      height: 200px;
+      background-color: lightblue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.5s ease;
+      font-weight: bold;
+      user-select: none; /* რომ ტექსტი არ მონიშნოს */
+    }
+
+    /* მარცხნივ 50px */
+    .moveLeft:active {
+      transform: translateX(-50px);
+    }
+
+    /* გადიდება 1.5-ჯერ ან დაპატარავება 0.5-ჯერ */
+    .resize:active {
+      transform: scale(1.5);
+    }
+
+    /* დიაგონალურად გადატანა ქვემოთ */
+    .moveDiagonal:active {
+      transform: translate(50px, 50px);
+    }
+
+    /* დატრიალება საათის საწინააღმდეგოდ */
+    .rotate:active {
+      transform: rotate(-90deg);
+    }
+  </style>
+</head>
+<body>
+
+<div class="box moveLeft">Move Left</div>
+<div class="box resize">Resize</div>
+<div class="box moveDiagonal">Diagonal</div>
+<div class="box rotate">Rotate</div>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Complex Animation CSS Only</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #e0e0e0;
+    }
+
+    .special-box {
+      width: 150px;
+      height: 200px;
+      background-color: lightcoral;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.7s ease;
+      font-weight: bold;
+      font-size: 18px;
+      user-select: none;
+    }
+
+    /* მაუსის დაჭერისას */
+    .special-box:active {
+      transform: translateX(50px) rotate(25deg) scale(4);
+    }
+  </style>
+</head>
+<body>
+
+<div class="special-box">Click me</div>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bouncing Ball Animation</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    .ball {
+      width: 100px;
+      height: 100px;
+      background-color: #3498db;
+      border-radius: 50%;
+      position: relative;
+      animation: growShrinkMove 3s infinite ease-in-out;
+    }
+
+    @keyframes growShrinkMove {
+      0% {
+        transform: scale(1) translateX(0);
+      }
+      25% {
+        transform: scale(1.5) translateX(50px);
+      }
+      50% {
+        transform: scale(1) translateX(100px);
+      }
+      75% {
+        transform: scale(1.5) translateX(50px);
+      }
+      100% {
+        transform: scale(1) translateX(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="ball"></div>
+
+</body>
+</html>

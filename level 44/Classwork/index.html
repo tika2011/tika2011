@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Transform All Variants</title>
+  <style>
+    body {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 40px;
+      background: #f0f0f0;
+    }
+
+    .box {
+      width: 200px;
+      height: 200px;
+      background-color: lightseagreen;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 20px;
+      transition: all 0.5s ease;
+    }
+
+    /* უბრალოდ საწყისი ელემენტი */
+    .normal {}
+
+    /* მხოლოდ translateX */
+    .translate-x:hover {
+      transform: translateX(50px);
+    }
+
+    /* მხოლოდ translateY */
+    .translate-y:hover {
+      transform: translateY(50px);
+    }
+
+    /* translate ორივე ღერძზე */
+    .translate-xy:hover {
+      transform: translate(50px, 50px);
+    }
+
+    /* მასშტაბირება - გაზრდა */
+    .scale-up:hover {
+      transform: scale(1.5);
+    }
+
+    /* მასშტაბირება - დაპატარავება */
+    .scale-down:hover {
+      transform: scale(0.5);
+    }
+
+    /* სიგანით მასშტაბირება */
+    .scale-x:hover {
+      transform: scaleX(2);
+    }
+
+    /* სიმაღლით მასშტაბირება */
+    .scale-y:hover {
+      transform: scaleY(2);
+    }
+
+    /* მარჯვენა მხარეს დატრიალება */
+    .rotate-right:hover {
+      transform: rotate(45deg);
+    }
+
+    /* მარცხენა მხარეს დატრიალება */
+    .rotate-left:hover {
+      transform: rotate(-45deg);
+    }
+
+    /* ყველა ერთად */
+    .combo:hover {
+      transform: translate(30px, 30px) scale(1.5) rotate(45deg);
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="box normal">Normal</div>
+<div class="box translate-x">Translate X</div>
+<div class="box translate-y">Translate Y</div>
+<div class="box translate-xy">Translate XY</div>
+<div class="box scale-up">Scale Up</div>
+<div class="box scale-down">Scale Down</div>
+<div class="box scale-x">Scale X</div>
+<div class="box scale-y">Scale Y</div>
+<div class="box rotate-right">Rotate ➡️</div>
+<div class="box rotate-left">Rotate ⬅️</div>
+<div class="box combo">All Together</div>
+
+</body>
+</html>

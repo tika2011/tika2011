@@ -1,0 +1,160 @@
+<!-- 1 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Background Color Change</title>
+  <style>
+    .color-box {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      animation: changeColor 2s forwards;
+    }
+
+    @keyframes changeColor {
+      0% {
+        background-color: red;
+      }
+      100% {
+        background-color: blue;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="color-box"></div>
+
+</body>
+</html>
+
+<!-- 2 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bouncing Ball</title>
+  <style>
+    .ball {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      border-radius: 50%;
+      position: relative;
+      animation: bounce 1s infinite ease-in-out;
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        top: 0;
+      }
+      50% {
+        top: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="ball"></div>
+
+</body>
+</html>
+
+<!-- 3 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>360° Rotation</title>
+  <style>
+    .rotate-box {
+      width: 200px;
+      height: 200px;
+      background-color: purple;
+      animation: rotateBox 2s linear forwards;
+    }
+
+    @keyframes rotateBox {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="rotate-box"></div>
+
+</body>
+</html>
+
+
+<!-- 4 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Text Color Change</title>
+  <style>
+    .text {
+      font-size: 30px;
+      font-weight: bold;
+      animation: changeTextColor 2s infinite alternate;
+    }
+
+    @keyframes changeTextColor {
+      0% {
+        color: black;
+      }
+      100% {
+        color: orange;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="text">Hello, Animation!</div>
+
+</body>
+</html>
+
+
+<!-- 5 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grow and Shrink</title>
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      background-color: green;
+      animation: growShrink 3s ease-in-out forwards;
+    }
+
+    @keyframes growShrink {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(2);
+      }
+      100% {
+        transform: scale(0.5);
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="box"></div>
+
+</body>
+</html>

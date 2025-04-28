@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ფოტოს შეცვლა</title>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+.photo {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <img id="photo" src="photo1.jpg" alt="photo" class="photo">
+        <div class="buttons">
+            <button onclick="changePhoto('photo1.jpg')">პირველი ფოტო</button>
+            <button onclick="changePhoto('photo2.jpg')">მეორე ფოტო</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
