@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(252, 237, 252);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1{
+    color: #333;
+}
+h2{
+    color: #777;
+}
+p{
+    color: #555
+}
+a{
+    color: #b1c5db;
+    text-decoration: none;
+    margin: 0 10 px;
+    text-align: left;
+}
+img{width: 80%;
+    min-width: 600px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
